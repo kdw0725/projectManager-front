@@ -1,0 +1,61 @@
+body {
+  background-color: #ffffff
+}
+.navlist a:link{
+  color: #000;
+}
+.navi-container {
+  width: 1536px;
+  height: auto;
+  background-color: #ffffff;
+  margin: auto;
+  white-space: nowrap;
+}
+
+.icon {
+  background-color: #aaaaaa;
+  width: auto;
+  height: auto;
+  font-size: 20%;
+  float: left;
+}
+
+.simpleinfo {
+  float: right;
+  margin-right: 20%;
+}
+
+.simpleinfo a {
+  margin-left: 10%
+}
+
+.lists {
+  list-style: none;
+  float: right;
+  margin-right: 20%;
+  padding: 0;
+}
+
+.lists li {
+  float: left;
+}
+
+.lists a {
+  font-size: 25px;
+  display: block;
+  width: auto;
+  height: 100px;
+  line-height: 100px;
+  background-color: #ffffff;
+  color: #aaa;
+  padding: 0 35px;
+  text-decoration: none;
+}
+
+.lists a:link {}
+
+.lists a:visited {}
+
+.lists a:hover {
+  color:#000;
+}
