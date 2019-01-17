@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "BMDOHYEON";
+  src: url("fonts/BMDOHYEON_ttf.ttf");
+}
+
+body{
+  font-family: "BMDOHYEON";
+";
+}
+
+.btn-primary{
+	background: #0000FF;
+	border-width: 2px;
+	color: #FFF;
+  font-size: 20px;
+  font-family: 'BMDOHYEON';
+
+}
+
+.btn-primary,
+.btn-primary:hover{
+	border-color: #0000FF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+	background: #fff;
+	color: #00F;
+}
