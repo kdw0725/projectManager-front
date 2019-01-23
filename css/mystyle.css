@@ -2,23 +2,6 @@ body {
 font-family: 'Jua', sans-serif;
 }
 
-.btn-primary {
-  background: #0000FF;
-  border-width: 2px;
-  color: #FFF;
-  font-size: 30px;
-}
-
-.btn-primary,
-.btn-primary:hover {
-  border-color: #0000FF;
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-  background: #fff;
-  color: #00F;
-}
 
 /*************************
 NAVBAR
@@ -73,10 +56,42 @@ NAVBAR
   border: none;
 }
 
+.navbar-default .navbar-nav > li > a{
+	border: none;
+
+}
+
+.login-signin{
+  background-color: #fff;
+  border: 1px | #aaa;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.login-signin:hover,
+.login-signin:focus{
+  border-color: #777
+}
+
+.login-signin a{
+  font-size: 20px;
+  color: #777;
+  text-decoration: none;
+}
+.login-signin a:hover,
+.login-signin a:focus{
+  color: #000
+}
+
+
+/*************************
+SLIDE
+*************************/
+
 .jumbotron {
   margin-bottom: 0;
 }
-
 .slide {
   background: url(../img/1234.jpg) no-repeat;
   background-size: cover;
@@ -86,4 +101,21 @@ NAVBAR
   text-align: center;
   height: 900px;
   text-transform: uppercase;
+}
+.btn-primary {
+  background: #0000FF;
+  border-width: 2px;
+  color: #FFF;
+  font-size: 30px;
+}
+
+.btn-primary,
+.btn-primary:hover {
+  border-color: #0000FF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  border-color: #00F;
+  color: #00F;
 }
