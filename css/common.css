@@ -74,15 +74,6 @@ NAVBAR
 
 .login-signin:hover,
 .login-signin:focus{
-  border-color: #777
-}
-
-.login-signin a{
-  font-size: 20px;
-  color: #777;
-  text-decoration: none;
-}
-.login-signin a:hover,
-.login-signin a:focus{
-  color: #000
+  border-color: #777;
+  color: #000;
 }
