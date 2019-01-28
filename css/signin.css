@@ -1,12 +1,23 @@
 .signin-container {
   height: 1000px;
   padding-top: 90px;
+  width: 50%;
+  border-left: 2px | #999;
+  border-right: 2px | #999;
+  border-bottom-width: 0px;
+  border-style: groove;
+  text-align: left;
 }
-
+.signin-container h1{
+  text-align: center;
+}
+.signin-container h3{
+  padding-left: 25px;
+}
 .repetition:hover,
 .repetition:focus{
   border-color: #777;
-  color: #000;.
+  color: #000;
 }
 
 @media (min-width: 768px) {
